@@ -60,7 +60,7 @@ public class WhitePlanetController {
 		 }catch(Exception e) {
 			 return e.getMessage();
 		 }
-		 return msg+" records of testing "+color+" and "+name;
+		 return msg+" records of team testing "+color+" and "+name;
 	 }
 	 
 	 
