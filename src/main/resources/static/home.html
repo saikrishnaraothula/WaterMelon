@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Boot AJAX Example</title>
+    <link rel="stylesheet" href="Decoration.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Submit User Information</h2>
+
+        <form id="userForm" method="post">
+            <input type="text" id="color" placeholder="Enter planet color" required>
+            <input type="text" id="name" placeholder="Enter planet name" required>
+          <!--   <input type="text" id="ismilkyWay" placeholder="true or false" required pattern="true|false"> -->
+            <button id="sub" type="submit" value="s">Submit</button>
+             <button id="del" type="submit" value="d">Delete</button>
+        </form>
+
+        <div id="response"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
